@@ -21,7 +21,7 @@ A tabela abaixo indica os componentes utilizados, bem como os preços deles (25/
 ![image](https://github.com/samuellbs/Alimentador_PET/assets/103770785/cd5911a6-a360-4e6c-b6f2-1e72f2a021fb)
 
 
-# Funcionamento do sistema
+#  ⚙️ Funcionamento do sistema
 
 O projeto apresenta um display OLED I2C que indica o horário atual. Dessa forma, quando o botão é apertado, ocorrem duas situações simultâneas. A primeira é a saturação do transistor BC548 permitindo que o LED acenda. Como também, o pino D18 do ESP32 está "monitorando" o acionamento do botão, para que exiba no display "Hora da comida" e acione o motor para liberação da comida. É importante ressaltar que a proposta do botão é permitir que o usuário despeje a comida quando quiser.
 
