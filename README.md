@@ -8,7 +8,7 @@ Autores: Samuel Barros Souza   (RA:20.01044-3);
 
 A proposta desse projeto é o desenvolvimento de um sistema automático para liberação de comida em horários determinados via código. Como também, é a implementação de um botão que permita que o usuário despeje a comida para seu animal de estimação quando desejar. 
 
-# Componentes Eletrônicos e Esquema Elétrico 
+# 💻 Componentes Eletrônicos e Esquema Elétrico 
 
 O software utilizado para o desenvolvimento do esquemático foi o Altium, e é possível observar na figura abaixo as ligações.
 
@@ -43,15 +43,15 @@ O software foi desenvolvido na Arduino IDE.
 
 O código necessita da instalação de bibliotecas para o funcionamento de componentes do projeto.
 
-# Bibliotecas Diplay OLED I2C
+# 📄 Bibliotecas Diplay OLED I2C
 
 Inicialmente, na IDE Arduino, selecione Ferramentas --> Gerenciar Bibliotecas. Logo depois, digite SSD1306 na barra de pesquisa e procure pela biblioteca SSD1306 do Adafruit e instale. Por fim, repita o processo e instale também as bibliotecas GFX e BusIO, ambas do Adafruit.
 
-# Biblioteca Real Time Clock (RTC)
+# 📄 Biblioteca Real Time Clock (RTC)
 
 Acesse o link https://github.com/adafruit/RTClib e baixe o zip da biblioteca. Logo após, clique em Sketch --> Incluir Biblioteca --> Adicionar Biblioteca .zip e selecione o arquivo baixado.
 
-# Software Versão 0
+# ⌨️ Software Versão 0
 
 ```
 /*    Programa: Alimentador Automático PET 
