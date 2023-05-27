@@ -35,7 +35,7 @@ https://github.com/samuellbs/Alimentador_PET/assets/103770785/1b54e7d9-1f1e-4d01
 
 É importante ressaltar que a estrutura física escolhida, não foi desenvolvida pelos autores desse projeto. A escolha foi por uma estrutura da UsinaINFO, que atendia as necessidades.
 
-# Código do sistema
+# ⌨️ Código do sistema
 
 O software foi desenvolvido na Arduino IDE.
 
