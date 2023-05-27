@@ -50,3 +50,7 @@ Inicialmente, na IDE Arduino, selecione Ferramentas --> Gerenciar Bibliotecas. L
 # Biblioteca Real Time Clock (RTC)
 
 Acesse o link https://github.com/adafruit/RTClib e baixe o zip da biblioteca. Logo após, clique em Sketch --> Incluir Biblioteca --> Adicionar Biblioteca .zip e selecione o arquivo baixado.
+
+# Software Versão 0
+
+
