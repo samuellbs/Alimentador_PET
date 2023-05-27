@@ -4,13 +4,22 @@ Esse trabalho aborda o desenvolvimento de um alimentador automático para animai
 
 # 🚀 Introdução
 
-AAA
+A proposta desse projeto é o desenvolvimento de um sistema automático para liberação de comida em horários determinados via código. Como também, é a implementação de um botão que permita que o usuário despeje a comida para seu animal de estimação quando desejar. 
 
-# Esquema Elétrico 
+# Componentes Eletrônicos e Esquema Elétrico 
+
+O software utilizado para o desenvolvimento do esquemático foi o Altium, e é possível observar na figura abaixo as ligações.
+
+![image](https://github.com/samuellbs/Alimentador_PET/assets/103770785/8689b729-66f0-4c9b-b2c6-f63c6623cd45)
+
+A placa final desenvolvida não utilizou um diodo em paralelo com o motor, mas é recomendável utilizar para evitar a tensão reversa no transistor. 
+
+A tabela abaixo indica os componentes utilizados, bem como os preços deles (25/05/2023) como forma de realizar um levantamento de custo.
+
+![image](https://github.com/samuellbs/Alimentador_PET/assets/103770785/cd5911a6-a360-4e6c-b6f2-1e72f2a021fb)
 
 
-
-# 📋 Pré-requisitos
+# 📋 Pré-requisitos para o Software
 
 O código necessita da instalação de bibliotecas para o funcionamento de componentes do projeto.
 
@@ -21,4 +30,10 @@ Inicialmente, na IDE Arduino, selecione Ferramentas --> Gerenciar Bibliotecas. L
 # Biblioteca Real Time Clock (RTC)
 
 Acesse o link https://github.com/adafruit/RTClib e baixe o zip da biblioteca. Logo após, clique em Sketch --> Incluir Biblioteca --> Adicionar Biblioteca .zip e selecione o arquivo baixado.
+
+# Funcionamento do sistema
+
+O projeto apresenta um display OLED I2C que indica o horário atual. Dessa forma, quando o botão é apertado, ocorrem duas situações simultâneas. A primeira é a saturação do transistor BC548 permitindo que o LED acenda. Como também, o pino D18 do ESP32 está "monitorando" o acionamento do botão, para que exiba no display "Hora da comida" e acione o motor para liberação da comida. É importante ressaltar que a proposta do botão é permitir que o usuário despeje a comida quando quiser.
+
+Por outro lado, como a proposta do sistema é ser um alimentador pet automático, através do código é possível definir horários para que a comida seja despejada no pote. No caso do software original, estão definidos os horários 07:30:00 e 19:30:00. 
 
