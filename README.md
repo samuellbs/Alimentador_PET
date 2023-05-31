@@ -1,10 +1,11 @@
 # Projeto de Alimentador para Cães ou Gatos
 
 Esse trabalho aborda o desenvolvimento de um alimentador automático para animais domésticos utilizando ESP-32 com RTC.
-Autores: Samuel Barros Souza        (RA:20.01044-3);
-         Lucas Granja Bernardo      (RA:19.00305-6);
-         Lucas Bacich Martins       (RA:19.02421-5);
-         Johannes Mattheus Krouwel  (RA:20.01248-9).
+Autores: Samuel Barros Souza           (RA:20.01044-3);
+         Lucas Granja Bernardo         (RA:19.00305-6);
+         Lucas Bacich Martins          (RA:19.02421-5);
+         Johannes Mattheus Krouwel     (RA:20.01248-9);
+         João Pedro Cannavan Fogetti   (RA:20.01010-9).
 
 # 🚀 Introdução
 
@@ -57,10 +58,11 @@ Acesse o link https://github.com/adafruit/RTClib e baixe o zip da biblioteca. Lo
 
 ```
 /*    Programa: Alimentador Automático PET 
- *    Autores: Samuel Barros Souza        (RA: 20.01044-3);
- *             Lucas Granja Bernardo      (RA: 19.00305-6);
-               Lucas Bacich Martins       (RA:19.02421-5);
-               Johannes Mattheus Krouwel  (RA:20.01248-9).
+ *    Autores: Samuel Barros Souza           (RA: 20.01044-3);
+ *             Lucas Granja Bernardo         (RA: 19.00305-6);
+               Lucas Bacich Martins          (RA:19.02421-5);
+               Johannes Mattheus Krouwel     (RA:20.01248-9);
+               João Pedro Cannavan Fogetti   (RA:20.01010-9).
  *             
  *    Versão: 0
  *    Concluído em: 10/05/2023
